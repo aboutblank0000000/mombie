@@ -9,13 +9,14 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mitr">
         <script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
         <script type="text/javascript" src="index.js"></script>
+        <script src="https://d.line-scdn.net/liff/1.0/sdk.js" /></script>
     </head>
     <body>
         <div class="container">
 
             <div class="box-container">
 
-                <div class="box">
+                <div class="box"> <!--1-->
                     <div class="profile-frame"> <!--กรอบรูปและรายละเอียด-->
                         <div class="profile-photo"> <!--กรอบรูปทั้งหมด-->
                             <img src="https://mpics.mgronline.com/pics/Images/563000009086001.JPEG" alt="user image" class="image">
@@ -98,7 +99,7 @@
                     </div>
                 </div>
 
-                <div class="box">
+                <div class="box"> <!--2-->
                     <div class="profile-frame"> <!--กรอบรูปและรายละเอียด-->
                         <div class="profile-photo"> <!--กรอบรูปทั้งหมด-->
                             <img src="https://mpics.mgronline.com/pics/Images/563000009086001.JPEG" alt="user image" class="image">
@@ -181,11 +182,1098 @@
                     </div>
                 </div>
 
+                <div class="box"> <!--3-->
+                    <div class="profile-frame"> <!--กรอบรูปและรายละเอียด-->
+                        <div class="profile-photo"> <!--กรอบรูปทั้งหมด-->
+                            <img src="https://mpics.mgronline.com/pics/Images/563000009086001.JPEG" alt="user image" class="image">
+                            <div class="tag-frame"> <!--กรอบtag-->
+                                <div class="nametag"> <!--tag-->
+                                    พี่เลี้ยงกึ่งแม่บ้าน
+                                </div>
+                            </div>
+                            <div class="vaccined-frame">
+                                <img src="images/vc.svg" id="vc1" class="vc1">
+                                <img src="images/vc.svg" id="vc2" class="vc2">
+                                <img src="images/vc.svg" id="vc3" class="vc3">
+                            </div>
+                        </div>
+                        <div class="profile-detail"> <!--กรอบรายละเอียด-->
+                            <div class="name"> <!--ชื่อ-->
+                                <span>
+                                    Nhoom Gunchai&nbsp;
+                                </span> <!--หลัง : ต้องใช้class-->
+                                <span class="age">
+                                    (555)
+                                </span>
+                            </div>
+                            <div class="experience sub-content"> <!--ประสบการณ์ทำงาน--><!--เป็นการใส่classหลายอัน-->
+                                <span>
+                                    ประสบการณ์ทำงาน : 
+                                </span>
+                                <span class="ans">
+                                    หลาย ปี
+                                </span>
+                            </div>
+                            <div class="language sub-content"> <!--ภาษา-->
+                                <span>
+                                    ภาษา : 
+                                </span>
+                                <span class="ans">
+                                    ธัยย์
+                                </span>
+                                </div>
+                            <div class="location sub-content"> <!--สถานที่-->
+                                <span>
+                                    สถานที่ : 
+                                </span>
+                                <span class="ans">
+                                    โหนกระสวย
+                                </span>
+                            </div>
+                            <div class="post-when sub-content"> <!--โพสท์เมื่อ-->
+                                <span>
+                                    โพสต์เมื่อ : 
+                                </span>
+                                <span class="ans">
+                                    วาน
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="salary-frame"> <!--กรอบเงินเดือน/ประเภทงาน-->
+                        <div class="salary">
+                            <span class="B">
+                                ฿
+                            </span>
+                            <span class="money">
+                                20
+                            </span>
+                            <span class="job-type">
+                                <span>
+                                    / เดือน 
+                                </span>
+                                <span class="job">
+                                    (ประจำ)
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fav-frame"> <!--กรอบปุ่มfav-->
+                        <div class="fav-button">
+                            <Button onclick="Toggle3()" class="heart" style="color:#F65C69"><i id="heart3" class="far fa-heart"></i></Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box"> <!--4-->
+                    <div class="profile-frame"> <!--กรอบรูปและรายละเอียด-->
+                        <div class="profile-photo"> <!--กรอบรูปทั้งหมด-->
+                            <img src="https://mpics.mgronline.com/pics/Images/563000009086001.JPEG" alt="user image" class="image">
+                            <div class="tag-frame"> <!--กรอบtag-->
+                                <div class="nametag"> <!--tag-->
+                                    พี่เลี้ยงกึ่งแม่บ้าน
+                                </div>
+                            </div>
+                            <div class="vaccined-frame">
+                                <img src="images/vc.svg" id="vc1" class="vc1">
+                                <img src="images/vc.svg" id="vc2" class="vc2">
+                                <img src="images/vc.svg" id="vc3" class="vc3">
+                            </div>
+                        </div>
+                        <div class="profile-detail"> <!--กรอบรายละเอียด-->
+                            <div class="name"> <!--ชื่อ-->
+                                <span>
+                                    Nhoom Gunchai&nbsp;
+                                </span> <!--หลัง : ต้องใช้class-->
+                                <span class="age">
+                                    (555)
+                                </span>
+                            </div>
+                            <div class="experience sub-content"> <!--ประสบการณ์ทำงาน--><!--เป็นการใส่classหลายอัน-->
+                                <span>
+                                    ประสบการณ์ทำงาน : 
+                                </span>
+                                <span class="ans">
+                                    หลาย ปี
+                                </span>
+                            </div>
+                            <div class="language sub-content"> <!--ภาษา-->
+                                <span>
+                                    ภาษา : 
+                                </span>
+                                <span class="ans">
+                                    ธัยย์
+                                </span>
+                                </div>
+                            <div class="location sub-content"> <!--สถานที่-->
+                                <span>
+                                    สถานที่ : 
+                                </span>
+                                <span class="ans">
+                                    โหนกระสวย
+                                </span>
+                            </div>
+                            <div class="post-when sub-content"> <!--โพสท์เมื่อ-->
+                                <span>
+                                    โพสต์เมื่อ : 
+                                </span>
+                                <span class="ans">
+                                    วาน
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="salary-frame"> <!--กรอบเงินเดือน/ประเภทงาน-->
+                        <div class="salary">
+                            <span class="B">
+                                ฿
+                            </span>
+                            <span class="money">
+                                20
+                            </span>
+                            <span class="job-type">
+                                <span>
+                                    / เดือน 
+                                </span>
+                                <span class="job">
+                                    (ประจำ)
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fav-frame"> <!--กรอบปุ่มfav-->
+                        <div class="fav-button">
+                            <Button onclick="Toggle4()" id="ais" class="heart" style="color:#F65C69"><i id="heart4" class="far fa-heart"></i></Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box"> <!--5-->
+                    <div class="profile-frame"> <!--กรอบรูปและรายละเอียด-->
+                        <div class="profile-photo"> <!--กรอบรูปทั้งหมด-->
+                            <img src="https://mpics.mgronline.com/pics/Images/563000009086001.JPEG" alt="user image" class="image">
+                            <div class="tag-frame"> <!--กรอบtag-->
+                                <div class="nametag"> <!--tag-->
+                                    พี่เลี้ยงกึ่งแม่บ้าน
+                                </div>
+                            </div>
+                            <div class="vaccined-frame">
+                                <img src="images/vc.svg" id="vc1" class="vc1">
+                                <img src="images/vc.svg" id="vc2" class="vc2">
+                                <img src="images/vc.svg" id="vc3" class="vc3">
+                            </div>
+                        </div>
+                        <div class="profile-detail"> <!--กรอบรายละเอียด-->
+                            <div class="name"> <!--ชื่อ-->
+                                <span>
+                                    Nhoom Gunchai&nbsp;
+                                </span> <!--หลัง : ต้องใช้class-->
+                                <span class="age">
+                                    (555)
+                                </span>
+                            </div>
+                            <div class="experience sub-content"> <!--ประสบการณ์ทำงาน--><!--เป็นการใส่classหลายอัน-->
+                                <span>
+                                    ประสบการณ์ทำงาน : 
+                                </span>
+                                <span class="ans">
+                                    หลาย ปี
+                                </span>
+                            </div>
+                            <div class="language sub-content"> <!--ภาษา-->
+                                <span>
+                                    ภาษา : 
+                                </span>
+                                <span class="ans">
+                                    ธัยย์
+                                </span>
+                                </div>
+                            <div class="location sub-content"> <!--สถานที่-->
+                                <span>
+                                    สถานที่ : 
+                                </span>
+                                <span class="ans">
+                                    โหนกระสวย
+                                </span>
+                            </div>
+                            <div class="post-when sub-content"> <!--โพสท์เมื่อ-->
+                                <span>
+                                    โพสต์เมื่อ : 
+                                </span>
+                                <span class="ans">
+                                    วาน
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="salary-frame"> <!--กรอบเงินเดือน/ประเภทงาน-->
+                        <div class="salary">
+                            <span class="B">
+                                ฿
+                            </span>
+                            <span class="money">
+                                20
+                            </span>
+                            <span class="job-type">
+                                <span>
+                                    / เดือน 
+                                </span>
+                                <span class="job">
+                                    (ประจำ)
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fav-frame"> <!--กรอบปุ่มfav-->
+                        <div class="fav-button">
+                            <Button onclick="Toggle5()"class="heart" style="color:#F65C69"><i id="heart5" class="far fa-heart"></i></Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box"> <!--6-->
+                    <div class="profile-frame"> <!--กรอบรูปและรายละเอียด-->
+                        <div class="profile-photo"> <!--กรอบรูปทั้งหมด-->
+                            <img src="https://mpics.mgronline.com/pics/Images/563000009086001.JPEG" alt="user image" class="image">
+                            <div class="tag-frame"> <!--กรอบtag-->
+                                <div class="nametag"> <!--tag-->
+                                    พี่เลี้ยงกึ่งแม่บ้าน
+                                </div>
+                            </div>
+                            <div class="vaccined-frame">
+                                <img src="images/vc.svg" id="vc1" class="vc1">
+                                <img src="images/vc.svg" id="vc2" class="vc2">
+                                <img src="images/vc.svg" id="vc3" class="vc3">
+                            </div>
+                        </div>
+                        <div class="profile-detail"> <!--กรอบรายละเอียด-->
+                            <div class="name"> <!--ชื่อ-->
+                                <span>
+                                    Nhoom Gunchai&nbsp;
+                                </span> <!--หลัง : ต้องใช้class-->
+                                <span class="age">
+                                    (555)
+                                </span>
+                            </div>
+                            <div class="experience sub-content"> <!--ประสบการณ์ทำงาน--><!--เป็นการใส่classหลายอัน-->
+                                <span>
+                                    ประสบการณ์ทำงาน : 
+                                </span>
+                                <span class="ans">
+                                    หลาย ปี
+                                </span>
+                            </div>
+                            <div class="language sub-content"> <!--ภาษา-->
+                                <span>
+                                    ภาษา : 
+                                </span>
+                                <span class="ans">
+                                    ธัยย์
+                                </span>
+                                </div>
+                            <div class="location sub-content"> <!--สถานที่-->
+                                <span>
+                                    สถานที่ : 
+                                </span>
+                                <span class="ans">
+                                    โหนกระสวย
+                                </span>
+                            </div>
+                            <div class="post-when sub-content"> <!--โพสท์เมื่อ-->
+                                <span>
+                                    โพสต์เมื่อ : 
+                                </span>
+                                <span class="ans">
+                                    วาน
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="salary-frame"> <!--กรอบเงินเดือน/ประเภทงาน-->
+                        <div class="salary">
+                            <span class="B">
+                                ฿
+                            </span>
+                            <span class="money">
+                                20
+                            </span>
+                            <span class="job-type">
+                                <span>
+                                    / เดือน 
+                                </span>
+                                <span class="job">
+                                    (ประจำ)
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fav-frame"> <!--กรอบปุ่มfav-->
+                        <div class="fav-button">
+                            <Button onclick="Toggle6()" id="ais" class="heart" style="color:#F65C69"><i id="heart6" class="far fa-heart"></i></Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box"> <!--7-->
+                    <div class="profile-frame"> <!--กรอบรูปและรายละเอียด-->
+                        <div class="profile-photo"> <!--กรอบรูปทั้งหมด-->
+                            <img src="https://mpics.mgronline.com/pics/Images/563000009086001.JPEG" alt="user image" class="image">
+                            <div class="tag-frame"> <!--กรอบtag-->
+                                <div class="nametag"> <!--tag-->
+                                    พี่เลี้ยงกึ่งแม่บ้าน
+                                </div>
+                            </div>
+                            <div class="vaccined-frame">
+                                <img src="images/vc.svg" id="vc1" class="vc1">
+                                <img src="images/vc.svg" id="vc2" class="vc2">
+                                <img src="images/vc.svg" id="vc3" class="vc3">
+                            </div>
+                        </div>
+                        <div class="profile-detail"> <!--กรอบรายละเอียด-->
+                            <div class="name"> <!--ชื่อ-->
+                                <span>
+                                    Nhoom Gunchai&nbsp;
+                                </span> <!--หลัง : ต้องใช้class-->
+                                <span class="age">
+                                    (555)
+                                </span>
+                            </div>
+                            <div class="experience sub-content"> <!--ประสบการณ์ทำงาน--><!--เป็นการใส่classหลายอัน-->
+                                <span>
+                                    ประสบการณ์ทำงาน : 
+                                </span>
+                                <span class="ans">
+                                    หลาย ปี
+                                </span>
+                            </div>
+                            <div class="language sub-content"> <!--ภาษา-->
+                                <span>
+                                    ภาษา : 
+                                </span>
+                                <span class="ans">
+                                    ธัยย์
+                                </span>
+                                </div>
+                            <div class="location sub-content"> <!--สถานที่-->
+                                <span>
+                                    สถานที่ : 
+                                </span>
+                                <span class="ans">
+                                    โหนกระสวย
+                                </span>
+                            </div>
+                            <div class="post-when sub-content"> <!--โพสท์เมื่อ-->
+                                <span>
+                                    โพสต์เมื่อ : 
+                                </span>
+                                <span class="ans">
+                                    วาน
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="salary-frame"> <!--กรอบเงินเดือน/ประเภทงาน-->
+                        <div class="salary">
+                            <span class="B">
+                                ฿
+                            </span>
+                            <span class="money">
+                                20
+                            </span>
+                            <span class="job-type">
+                                <span>
+                                    / เดือน 
+                                </span>
+                                <span class="job">
+                                    (ประจำ)
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fav-frame"> <!--กรอบปุ่มfav-->
+                        <div class="fav-button">
+                            <Button onclick="Toggle7()" class="heart" style="color:#F65C69"><i id="heart7" class="far fa-heart"></i></Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box"> <!--8-->
+                    <div class="profile-frame"> <!--กรอบรูปและรายละเอียด-->
+                        <div class="profile-photo"> <!--กรอบรูปทั้งหมด-->
+                            <img src="https://mpics.mgronline.com/pics/Images/563000009086001.JPEG" alt="user image" class="image">
+                            <div class="tag-frame"> <!--กรอบtag-->
+                                <div class="nametag"> <!--tag-->
+                                    พี่เลี้ยงกึ่งแม่บ้าน
+                                </div>
+                            </div>
+                            <div class="vaccined-frame">
+                                <img src="images/vc.svg" id="vc1" class="vc1">
+                                <img src="images/vc.svg" id="vc2" class="vc2">
+                                <img src="images/vc.svg" id="vc3" class="vc3">
+                            </div>
+                        </div>
+                        <div class="profile-detail"> <!--กรอบรายละเอียด-->
+                            <div class="name"> <!--ชื่อ-->
+                                <span>
+                                    Nhoom Gunchai&nbsp;
+                                </span> <!--หลัง : ต้องใช้class-->
+                                <span class="age">
+                                    (555)
+                                </span>
+                            </div>
+                            <div class="experience sub-content"> <!--ประสบการณ์ทำงาน--><!--เป็นการใส่classหลายอัน-->
+                                <span>
+                                    ประสบการณ์ทำงาน : 
+                                </span>
+                                <span class="ans">
+                                    หลาย ปี
+                                </span>
+                            </div>
+                            <div class="language sub-content"> <!--ภาษา-->
+                                <span>
+                                    ภาษา : 
+                                </span>
+                                <span class="ans">
+                                    ธัยย์
+                                </span>
+                                </div>
+                            <div class="location sub-content"> <!--สถานที่-->
+                                <span>
+                                    สถานที่ : 
+                                </span>
+                                <span class="ans">
+                                    โหนกระสวย
+                                </span>
+                            </div>
+                            <div class="post-when sub-content"> <!--โพสท์เมื่อ-->
+                                <span>
+                                    โพสต์เมื่อ : 
+                                </span>
+                                <span class="ans">
+                                    วาน
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="salary-frame"> <!--กรอบเงินเดือน/ประเภทงาน-->
+                        <div class="salary">
+                            <span class="B">
+                                ฿
+                            </span>
+                            <span class="money">
+                                20
+                            </span>
+                            <span class="job-type">
+                                <span>
+                                    / เดือน 
+                                </span>
+                                <span class="job">
+                                    (ประจำ)
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fav-frame"> <!--กรอบปุ่มfav-->
+                        <div class="fav-button">
+                            <Button onclick="Toggle8()" id="ais" class="heart" style="color:#F65C69"><i id="heart8" class="far fa-heart"></i></Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box"> <!--9-->
+                    <div class="profile-frame"> <!--กรอบรูปและรายละเอียด-->
+                        <div class="profile-photo"> <!--กรอบรูปทั้งหมด-->
+                            <img src="https://mpics.mgronline.com/pics/Images/563000009086001.JPEG" alt="user image" class="image">
+                            <div class="tag-frame"> <!--กรอบtag-->
+                                <div class="nametag"> <!--tag-->
+                                    พี่เลี้ยงกึ่งแม่บ้าน
+                                </div>
+                            </div>
+                            <div class="vaccined-frame">
+                                <img src="images/vc.svg" id="vc1" class="vc1">
+                                <img src="images/vc.svg" id="vc2" class="vc2">
+                                <img src="images/vc.svg" id="vc3" class="vc3">
+                            </div>
+                        </div>
+                        <div class="profile-detail"> <!--กรอบรายละเอียด-->
+                            <div class="name"> <!--ชื่อ-->
+                                <span>
+                                    Nhoom Gunchai&nbsp;
+                                </span> <!--หลัง : ต้องใช้class-->
+                                <span class="age">
+                                    (555)
+                                </span>
+                            </div>
+                            <div class="experience sub-content"> <!--ประสบการณ์ทำงาน--><!--เป็นการใส่classหลายอัน-->
+                                <span>
+                                    ประสบการณ์ทำงาน : 
+                                </span>
+                                <span class="ans">
+                                    หลาย ปี
+                                </span>
+                            </div>
+                            <div class="language sub-content"> <!--ภาษา-->
+                                <span>
+                                    ภาษา : 
+                                </span>
+                                <span class="ans">
+                                    ธัยย์
+                                </span>
+                                </div>
+                            <div class="location sub-content"> <!--สถานที่-->
+                                <span>
+                                    สถานที่ : 
+                                </span>
+                                <span class="ans">
+                                    โหนกระสวย
+                                </span>
+                            </div>
+                            <div class="post-when sub-content"> <!--โพสท์เมื่อ-->
+                                <span>
+                                    โพสต์เมื่อ : 
+                                </span>
+                                <span class="ans">
+                                    วาน
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="salary-frame"> <!--กรอบเงินเดือน/ประเภทงาน-->
+                        <div class="salary">
+                            <span class="B">
+                                ฿
+                            </span>
+                            <span class="money">
+                                20
+                            </span>
+                            <span class="job-type">
+                                <span>
+                                    / เดือน 
+                                </span>
+                                <span class="job">
+                                    (ประจำ)
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fav-frame"> <!--กรอบปุ่มfav-->
+                        <div class="fav-button">
+                            <Button onclick="Toggle9()" id="ais" class="heart" style="color:#F65C69"><i id="heart9" class="far fa-heart"></i></Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box"> <!--10-->
+                    <div class="profile-frame"> <!--กรอบรูปและรายละเอียด-->
+                        <div class="profile-photo"> <!--กรอบรูปทั้งหมด-->
+                            <img src="https://mpics.mgronline.com/pics/Images/563000009086001.JPEG" alt="user image" class="image">
+                            <div class="tag-frame"> <!--กรอบtag-->
+                                <div class="nametag"> <!--tag-->
+                                    พี่เลี้ยงกึ่งแม่บ้าน
+                                </div>
+                            </div>
+                            <div class="vaccined-frame">
+                                <img src="images/vc.svg" id="vc1" class="vc1">
+                                <img src="images/vc.svg" id="vc2" class="vc2">
+                                <img src="images/vc.svg" id="vc3" class="vc3">
+                            </div>
+                        </div>
+                        <div class="profile-detail"> <!--กรอบรายละเอียด-->
+                            <div class="name"> <!--ชื่อ-->
+                                <span>
+                                    Nhoom Gunchai&nbsp;
+                                </span> <!--หลัง : ต้องใช้class-->
+                                <span class="age">
+                                    (555)
+                                </span>
+                            </div>
+                            <div class="experience sub-content"> <!--ประสบการณ์ทำงาน--><!--เป็นการใส่classหลายอัน-->
+                                <span>
+                                    ประสบการณ์ทำงาน : 
+                                </span>
+                                <span class="ans">
+                                    หลาย ปี
+                                </span>
+                            </div>
+                            <div class="language sub-content"> <!--ภาษา-->
+                                <span>
+                                    ภาษา : 
+                                </span>
+                                <span class="ans">
+                                    ธัยย์
+                                </span>
+                                </div>
+                            <div class="location sub-content"> <!--สถานที่-->
+                                <span>
+                                    สถานที่ : 
+                                </span>
+                                <span class="ans">
+                                    โหนกระสวย
+                                </span>
+                            </div>
+                            <div class="post-when sub-content"> <!--โพสท์เมื่อ-->
+                                <span>
+                                    โพสต์เมื่อ : 
+                                </span>
+                                <span class="ans">
+                                    วาน
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="salary-frame"> <!--กรอบเงินเดือน/ประเภทงาน-->
+                        <div class="salary">
+                            <span class="B">
+                                ฿
+                            </span>
+                            <span class="money">
+                                20
+                            </span>
+                            <span class="job-type">
+                                <span>
+                                    / เดือน 
+                                </span>
+                                <span class="job">
+                                    (ประจำ)
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fav-frame"> <!--กรอบปุ่มfav-->
+                        <div class="fav-button">
+                            <Button onclick="Toggle10()" id="ais" class="heart" style="color:#F65C69"><i id="heart10" class="far fa-heart"></i></Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box"> <!--11-->
+                    <div class="profile-frame"> <!--กรอบรูปและรายละเอียด-->
+                        <div class="profile-photo"> <!--กรอบรูปทั้งหมด-->
+                            <img src="https://mpics.mgronline.com/pics/Images/563000009086001.JPEG" alt="user image" class="image">
+                            <div class="tag-frame"> <!--กรอบtag-->
+                                <div class="nametag"> <!--tag-->
+                                    พี่เลี้ยงกึ่งแม่บ้าน
+                                </div>
+                            </div>
+                            <div class="vaccined-frame">
+                                <img src="images/vc.svg" id="vc1" class="vc1">
+                                <img src="images/vc.svg" id="vc2" class="vc2">
+                                <img src="images/vc.svg" id="vc3" class="vc3">
+                            </div>
+                        </div>
+                        <div class="profile-detail"> <!--กรอบรายละเอียด-->
+                            <div class="name"> <!--ชื่อ-->
+                                <span>
+                                    Nhoom Gunchai&nbsp;
+                                </span> <!--หลัง : ต้องใช้class-->
+                                <span class="age">
+                                    (555)
+                                </span>
+                            </div>
+                            <div class="experience sub-content"> <!--ประสบการณ์ทำงาน--><!--เป็นการใส่classหลายอัน-->
+                                <span>
+                                    ประสบการณ์ทำงาน : 
+                                </span>
+                                <span class="ans">
+                                    หลาย ปี
+                                </span>
+                            </div>
+                            <div class="language sub-content"> <!--ภาษา-->
+                                <span>
+                                    ภาษา : 
+                                </span>
+                                <span class="ans">
+                                    ธัยย์
+                                </span>
+                                </div>
+                            <div class="location sub-content"> <!--สถานที่-->
+                                <span>
+                                    สถานที่ : 
+                                </span>
+                                <span class="ans">
+                                    โหนกระสวย
+                                </span>
+                            </div>
+                            <div class="post-when sub-content"> <!--โพสท์เมื่อ-->
+                                <span>
+                                    โพสต์เมื่อ : 
+                                </span>
+                                <span class="ans">
+                                    วาน
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="salary-frame"> <!--กรอบเงินเดือน/ประเภทงาน-->
+                        <div class="salary">
+                            <span class="B">
+                                ฿
+                            </span>
+                            <span class="money">
+                                20
+                            </span>
+                            <span class="job-type">
+                                <span>
+                                    / เดือน 
+                                </span>
+                                <span class="job">
+                                    (ประจำ)
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fav-frame"> <!--กรอบปุ่มfav-->
+                        <div class="fav-button">
+                            <Button onclick="Toggle11()" class="heart" style="color:#F65C69"><i id="heart11" class="far fa-heart"></i></Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box"> <!--12-->
+                    <div class="profile-frame"> <!--กรอบรูปและรายละเอียด-->
+                        <div class="profile-photo"> <!--กรอบรูปทั้งหมด-->
+                            <img src="https://mpics.mgronline.com/pics/Images/563000009086001.JPEG" alt="user image" class="image">
+                            <div class="tag-frame"> <!--กรอบtag-->
+                                <div class="nametag"> <!--tag-->
+                                    พี่เลี้ยงกึ่งแม่บ้าน
+                                </div>
+                            </div>
+                            <div class="vaccined-frame">
+                                <img src="images/vc.svg" id="vc1" class="vc1">
+                                <img src="images/vc.svg" id="vc2" class="vc2">
+                                <img src="images/vc.svg" id="vc3" class="vc3">
+                            </div>
+                        </div>
+                        <div class="profile-detail"> <!--กรอบรายละเอียด-->
+                            <div class="name"> <!--ชื่อ-->
+                                <span>
+                                    Nhoom Gunchai&nbsp;
+                                </span> <!--หลัง : ต้องใช้class-->
+                                <span class="age">
+                                    (555)
+                                </span>
+                            </div>
+                            <div class="experience sub-content"> <!--ประสบการณ์ทำงาน--><!--เป็นการใส่classหลายอัน-->
+                                <span>
+                                    ประสบการณ์ทำงาน : 
+                                </span>
+                                <span class="ans">
+                                    หลาย ปี
+                                </span>
+                            </div>
+                            <div class="language sub-content"> <!--ภาษา-->
+                                <span>
+                                    ภาษา : 
+                                </span>
+                                <span class="ans">
+                                    ธัยย์
+                                </span>
+                                </div>
+                            <div class="location sub-content"> <!--สถานที่-->
+                                <span>
+                                    สถานที่ : 
+                                </span>
+                                <span class="ans">
+                                    โหนกระสวย
+                                </span>
+                            </div>
+                            <div class="post-when sub-content"> <!--โพสท์เมื่อ-->
+                                <span>
+                                    โพสต์เมื่อ : 
+                                </span>
+                                <span class="ans">
+                                    วาน
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="salary-frame"> <!--กรอบเงินเดือน/ประเภทงาน-->
+                        <div class="salary">
+                            <span class="B">
+                                ฿
+                            </span>
+                            <span class="money">
+                                20
+                            </span>
+                            <span class="job-type">
+                                <span>
+                                    / เดือน 
+                                </span>
+                                <span class="job">
+                                    (ประจำ)
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fav-frame"> <!--กรอบปุ่มfav-->
+                        <div class="fav-button">
+                            <Button onclick="Toggle12()" class="heart" style="color:#F65C69"><i id="heart12" class="far fa-heart"></i></Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box"> <!--13-->
+                    <div class="profile-frame"> <!--กรอบรูปและรายละเอียด-->
+                        <div class="profile-photo"> <!--กรอบรูปทั้งหมด-->
+                            <img src="https://mpics.mgronline.com/pics/Images/563000009086001.JPEG" alt="user image" class="image">
+                            <div class="tag-frame"> <!--กรอบtag-->
+                                <div class="nametag"> <!--tag-->
+                                    พี่เลี้ยงกึ่งแม่บ้าน
+                                </div>
+                            </div>
+                            <div class="vaccined-frame">
+                                <img src="images/vc.svg" id="vc1" class="vc1">
+                                <img src="images/vc.svg" id="vc2" class="vc2">
+                                <img src="images/vc.svg" id="vc3" class="vc3">
+                            </div>
+                        </div>
+                        <div class="profile-detail"> <!--กรอบรายละเอียด-->
+                            <div class="name"> <!--ชื่อ-->
+                                <span>
+                                    Nhoom Gunchai&nbsp;
+                                </span> <!--หลัง : ต้องใช้class-->
+                                <span class="age">
+                                    (555)
+                                </span>
+                            </div>
+                            <div class="experience sub-content"> <!--ประสบการณ์ทำงาน--><!--เป็นการใส่classหลายอัน-->
+                                <span>
+                                    ประสบการณ์ทำงาน : 
+                                </span>
+                                <span class="ans">
+                                    หลาย ปี
+                                </span>
+                            </div>
+                            <div class="language sub-content"> <!--ภาษา-->
+                                <span>
+                                    ภาษา : 
+                                </span>
+                                <span class="ans">
+                                    ธัยย์
+                                </span>
+                                </div>
+                            <div class="location sub-content"> <!--สถานที่-->
+                                <span>
+                                    สถานที่ : 
+                                </span>
+                                <span class="ans">
+                                    โหนกระสวย
+                                </span>
+                            </div>
+                            <div class="post-when sub-content"> <!--โพสท์เมื่อ-->
+                                <span>
+                                    โพสต์เมื่อ : 
+                                </span>
+                                <span class="ans">
+                                    วาน
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="salary-frame"> <!--กรอบเงินเดือน/ประเภทงาน-->
+                        <div class="salary">
+                            <span class="B">
+                                ฿
+                            </span>
+                            <span class="money">
+                                20
+                            </span>
+                            <span class="job-type">
+                                <span>
+                                    / เดือน 
+                                </span>
+                                <span class="job">
+                                    (ประจำ)
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fav-frame"> <!--กรอบปุ่มfav-->
+                        <div class="fav-button">
+                            <Button onclick="Toggle13()" class="heart" style="color:#F65C69"><i id="heart13" class="far fa-heart"></i></Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box"> <!--14-->
+                    <div class="profile-frame"> <!--กรอบรูปและรายละเอียด-->
+                        <div class="profile-photo"> <!--กรอบรูปทั้งหมด-->
+                            <img src="https://mpics.mgronline.com/pics/Images/563000009086001.JPEG" alt="user image" class="image">
+                            <div class="tag-frame"> <!--กรอบtag-->
+                                <div class="nametag"> <!--tag-->
+                                    พี่เลี้ยงกึ่งแม่บ้าน
+                                </div>
+                            </div>
+                            <div class="vaccined-frame">
+                                <img src="images/vc.svg" id="vc1" class="vc1">
+                                <img src="images/vc.svg" id="vc2" class="vc2">
+                                <img src="images/vc.svg" id="vc3" class="vc3">
+                            </div>
+                        </div>
+                        <div class="profile-detail"> <!--กรอบรายละเอียด-->
+                            <div class="name"> <!--ชื่อ-->
+                                <span>
+                                    Nhoom Gunchai&nbsp;
+                                </span> <!--หลัง : ต้องใช้class-->
+                                <span class="age">
+                                    (555)
+                                </span>
+                            </div>
+                            <div class="experience sub-content"> <!--ประสบการณ์ทำงาน--><!--เป็นการใส่classหลายอัน-->
+                                <span>
+                                    ประสบการณ์ทำงาน : 
+                                </span>
+                                <span class="ans">
+                                    หลาย ปี
+                                </span>
+                            </div>
+                            <div class="language sub-content"> <!--ภาษา-->
+                                <span>
+                                    ภาษา : 
+                                </span>
+                                <span class="ans">
+                                    ธัยย์
+                                </span>
+                                </div>
+                            <div class="location sub-content"> <!--สถานที่-->
+                                <span>
+                                    สถานที่ : 
+                                </span>
+                                <span class="ans">
+                                    โหนกระสวย
+                                </span>
+                            </div>
+                            <div class="post-when sub-content"> <!--โพสท์เมื่อ-->
+                                <span>
+                                    โพสต์เมื่อ : 
+                                </span>
+                                <span class="ans">
+                                    วาน
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="salary-frame"> <!--กรอบเงินเดือน/ประเภทงาน-->
+                        <div class="salary">
+                            <span class="B">
+                                ฿
+                            </span>
+                            <span class="money">
+                                20
+                            </span>
+                            <span class="job-type">
+                                <span>
+                                    / เดือน 
+                                </span>
+                                <span class="job">
+                                    (ประจำ)
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fav-frame"> <!--กรอบปุ่มfav-->
+                        <div class="fav-button">
+                            <Button onclick="Toggle14()" class="heart" style="color:#F65C69"><i id="heart14" class="far fa-heart"></i></Button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box"> <!--15-->
+                    <div class="profile-frame"> <!--กรอบรูปและรายละเอียด-->
+                        <div class="profile-photo"> <!--กรอบรูปทั้งหมด-->
+                            <img src="https://mpics.mgronline.com/pics/Images/563000009086001.JPEG" alt="user image" class="image">
+                            <div class="tag-frame"> <!--กรอบtag-->
+                                <div class="nametag"> <!--tag-->
+                                    พี่เลี้ยงกึ่งแม่บ้าน
+                                </div>
+                            </div>
+                            <div class="vaccined-frame">
+                                <img src="images/vc.svg" id="vc1" class="vc1">
+                                <img src="images/vc.svg" id="vc2" class="vc2">
+                                <img src="images/vc.svg" id="vc3" class="vc3">
+                            </div>
+                        </div>
+                        <div class="profile-detail"> <!--กรอบรายละเอียด-->
+                            <div class="name"> <!--ชื่อ-->
+                                <span>
+                                    Nhoom Gunchai&nbsp;
+                                </span> <!--หลัง : ต้องใช้class-->
+                                <span class="age">
+                                    (555)
+                                </span>
+                            </div>
+                            <div class="experience sub-content"> <!--ประสบการณ์ทำงาน--><!--เป็นการใส่classหลายอัน-->
+                                <span>
+                                    ประสบการณ์ทำงาน : 
+                                </span>
+                                <span class="ans">
+                                    หลาย ปี
+                                </span>
+                            </div>
+                            <div class="language sub-content"> <!--ภาษา-->
+                                <span>
+                                    ภาษา : 
+                                </span>
+                                <span class="ans">
+                                    ธัยย์
+                                </span>
+                                </div>
+                            <div class="location sub-content"> <!--สถานที่-->
+                                <span>
+                                    สถานที่ : 
+                                </span>
+                                <span class="ans">
+                                    โหนกระสวย
+                                </span>
+                            </div>
+                            <div class="post-when sub-content"> <!--โพสท์เมื่อ-->
+                                <span>
+                                    โพสต์เมื่อ : 
+                                </span>
+                                <span class="ans">
+                                    วาน
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="salary-frame"> <!--กรอบเงินเดือน/ประเภทงาน-->
+                        <div class="salary">
+                            <span class="B">
+                                ฿
+                            </span>
+                            <span class="money">
+                                20
+                            </span>
+                            <span class="job-type">
+                                <span>
+                                    / เดือน 
+                                </span>
+                                <span class="job">
+                                    (ประจำ)
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="fav-frame"> <!--กรอบปุ่มfav-->
+                        <div class="fav-button">
+                            <Button onclick="Toggle15()" id="ais" class="heart" style="color:#F65C69"><i id="heart15" class="far fa-heart"></i></Button>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
             <div class="button-frame">
-                <button>ฮัลโหล</button>
+                <div class="nq-button"> <!--Next question/คำถามถัดไป-->
+                    <div onclick="nq()" class="nq-title">
+                        ตอบคำถามถัดไป
+                    </div>
+                </div>
+                <div onclick="loadmore()" id="cm" class="cm-button"> <!--See more/ดูเพิ่มเติม-->
+                    <div class="cm-title">
+                        ดูเพิ่มเติม
+                    </div>
+                </div>
                 <!--ตรงนี้ ใส่ปุ่ม read more-->
             </div>
         </div>
