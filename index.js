@@ -1,178 +1,266 @@
-fetch('https://api.mombiestreet.com/api/v2/products/search?keyword=%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3')
-    .then(response => response.json())
-    .then(data => console.log(data));
-
-
-function Toggle1(){
-    var btn = document.getElementById('heart1');
-    if (btn.className == "fas fa-heart") {
-        btn.className = "far fa-heart"
-    }
-    else{
-        btn.className = "fas fa-heart"
-    }
+.box{
+    position: static;
+    width: 343px;
+    height: 124px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(188, 204, 214, 0.4);
+    border-radius: 8px;
+    margin: 8px auto;
 }
 
-function Toggle2(){
-    var btn = document.getElementById('heart2');
-    if (btn.className == "fas fa-heart") {
-        btn.className = "far fa-heart"
-    }
-    else{
-        btn.className = "fas fa-heart"
-    }
+.profile-frame{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    margin-left: 8px;
+    margin-top: 8px;
 }
 
-function Toggle3(){
-    var btn = document.getElementById('heart3');
-    if (btn.className == "fas fa-heart") {
-        btn.className = "far fa-heart"
-    }
-    else{
-        btn.className = "fas fa-heart"
-    }
+.profile-photo{
+    /* display: none; */
+    position: static;
+    width: 83px;
+    height: 83px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
-function Toggle4(){
-    var btn = document.getElementById('heart4');
-    if (btn.className == "fas fa-heart") {
-        btn.className = "far fa-heart"
-    }
-    else{
-        btn.className = "fas fa-heart"
-    }
+.image{
+    /* display: none; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    object-fit: cover;
 }
 
-function Toggle5(){
-    var btn = document.getElementById('heart5');
-    if (btn.className == "fas fa-heart") {
-        btn.className = "far fa-heart"
-    }
-    else{
-        btn.className = "fas fa-heart"
-    }
+.tag-frame{
+    position: absolute;
+    width: 57px;
+    height: 13px;
+    left: 4px;
+    top: 4px;
+    background: #FFFFFF;
+    border-radius: 34px;
+    border: 1px solid transparent;
+    background: linear-gradient(white, white), 
+                linear-gradient(#F17D87, #FFC82F); 
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
 }
 
-function Toggle6(){
-    var btn = document.getElementById('heart6');
-    if (btn.className == "fas fa-heart") {
-        btn.className = "far fa-heart"
-    }
-    else{
-        btn.className = "fas fa-heart"
-    }
+.nametag{
+    position: static;
+    font-family: 'Mitr', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 6px;
+    line-height: 9px;
+    color: #F4808A;
+    margin: 2px 0;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
 }
 
-function Toggle7(){
-    var btn = document.getElementById('heart7');
-    if (btn.className == "fas fa-heart") {
-        btn.className = "far fa-heart"
-    }
-    else{
-        btn.className = "fas fa-heart"
-    }
+.profile-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: static;
+    width: 180px;
+    height: 83px;
+    margin: 0 99px;
 }
 
-function Toggle8(){
-    var btn = document.getElementById('heart8');
-    if (btn.className == "fas fa-heart") {
-        btn.className = "far fa-heart"
-    }
-    else{
-        btn.className = "fas fa-heart"
-    }
+.name {
+    display: inline-flex;
+    position: static;
+    height: 19px;
+    right: 0%;
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    color: #000000;
+    max-width: 100px;
+    width: 300%;
+    white-space: nowrap;
+}
+.age {
+    position: static;
+    height: 19px;
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    color: #000000;
+    width: 135%;
 }
 
-function Toggle9(){
-    var btn = document.getElementById('heart9');
-    if (btn.className == "fas fa-heart") {
-        btn.className = "far fa-heart"
-    }
-    else{
-        btn.className = "fas fa-heart"
-    }
+.sub-content {
+    /* display: none; */
+    position: static;
+    height: 19px;
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #686868;
+    width: 220%;
 }
 
-function Toggle10(){
-    var btn = document.getElementById('heart10');
-    if (btn.className == "fas fa-heart") {
-        btn.className = "far fa-heart"
-    }
-    else{
-        btn.className = "fas fa-heart"
-    }
+.ans {
+    /* display: none; */
+    position: static;
+    height: 19px;
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #000000;
+    width: 220%;
 }
 
-function Toggle11(){
-    var btn = document.getElementById('heart11');
-    if (btn.className == "fas fa-heart") {
-        btn.className = "far fa-heart"
-    }
-    else{
-        btn.className = "fas fa-heart"
-    }
+.salary {
+    position: absolute;
+    width: 123px;
+    height: 17px;
+    margin-left: 8px;
+    margin-top: 99px;
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    font-size: 16px;
+    color: #000000;
+    white-space: nowrap;
 }
 
-function Toggle12(){
-    var btn = document.getElementById('heart12');
-    if (btn.className == "fas fa-heart") {
-        btn.className = "far fa-heart"
-    }
-    else{
-        btn.className = "fas fa-heart"
-    }
+.job-type{
+    font-size: 12px;
+    color: #9C9C9C;
 }
 
-function Toggle13(){
-    var btn = document.getElementById('heart13');
-    if (btn.className == "fas fa-heart") {
-        btn.className = "far fa-heart"
-    }
-    else{
-        btn.className = "fas fa-heart"
-    }
+.job{
+    font-size: 12px;
+    color: #9C9C9C;
 }
 
-function Toggle14(){
-    var btn = document.getElementById('heart14');
-    if (btn.className == "fas fa-heart") {
-        btn.className = "far fa-heart"
-    }
-    else{
-        btn.className = "fas fa-heart"
-    }
+.vaccined-frame{
+    position: absolute;
+    width: 24px;
+    height: 10px;
+    margin-left: 6px;
+    margin-top: 65px;
+    white-space: nowrap;
 }
 
-function Toggle15(){
-    var btn = document.getElementById('heart15');
-    if (btn.className == "fas fa-heart") {
-        btn.className = "far fa-heart"
-    }
-    else{
-        btn.className = "fas fa-heart"
-    }
+.vc2{
+    margin-left: -10.25px;
 }
 
-let currentItem = 3;
-function loadmore(){
-    let boxes = [...document.querySelectorAll('.box')];
-    for (var i = currentItem; i < currentItem + 3; i++){
-        boxes[i].style.display = 'flex';
-    }
-    currentItem +=3;
-
-    if(currentItem >= boxes.length){
-        document.getElementById('cm').style.display = 'none'
-    }
+.vc3{
+    margin-left: -10.5px;
 }
 
-liff.init(function (data) {});
-function nq(){
-    liff.sendMessages([
-		{
-		  type: 'text',
-		  text: 'ตอบคำถามถัดไป'
-		}
-	  ])
-    liff.closeWindow();
+.fav-button{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 310px;
+    display: flex;
+    width: 26px;
+    height: 26px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.09);
+    border-radius: 20px;
+    /* display: none; */
+}
+
+.heart{
+    /* display: none; */
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    margin-left: -0.8px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.button-frame{
+    margin: 24px auto ;
+    height: 48px;
+    width: 343px;
+}
+
+.nq-button{
+    position: absolute;
+    height: 48px;
+    width: 164px;
+    /* margin-left: 16px; */
+    background: linear-gradient(0deg, #FFD9DD 0%, #FFF4F5 100%);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nq-title{
+    position: absolute;
+    height: 25px;
+    top: 11px;
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #F65C69;
+    width: 100%;
+    text-align: center;
+}
+
+.cm-button{
+    position: absolute;
+    height: 48px;
+    width: 164px;
+    margin-left: 179px;
+    background: linear-gradient(0deg, #F65C69 0%, #FFAFB8 100%);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cm-title{
+    position: absolute;
+    height: 25px;
+    top: calc(50% - 25px/2 - 0.5px);
+    font-family: 'Mitr';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+}
+
+.box{
+    display: none;
+}
+
+.box:nth-child(1),
+.box:nth-child(2),
+.box:nth-child(3){
+    display:flex;
+}
+
+.box-container{
+    width: auto;
+    height: 15%;
 }
