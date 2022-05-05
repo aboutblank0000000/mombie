@@ -166,7 +166,9 @@ function loadmore(){
     }
 }
 
-liff.init(function (data) {});
+liff.init({
+    liffId: '1657088371-034WqW7Y', // Use own liffId
+});
 function nq(){
     liff.sendMessages([
 		{
